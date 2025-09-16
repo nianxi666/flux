@@ -16,4 +16,4 @@ build:
     - "watchdog"
     - "websockets"
   run:
-    - "git clone https://huggingface.co/spaces/dangthr/FLUX.1-Krea-dev.git"
+    - "git clone https://huggingface.co/spaces/dangthr/FLUX.1-Krea-dev.git && pip install --upgrade diffusers transformers accelerate peft"
